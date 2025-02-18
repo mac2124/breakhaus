@@ -30,8 +30,8 @@ jobs:
         run: npm run build
 
       # Step 5: Deploy the contents of the 'out' folder to GitHub Pages
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.PAT_TOKEN }}
-          publish_dir: ./out
+      - name: Deploy
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./out
