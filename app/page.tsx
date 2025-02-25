@@ -8,7 +8,7 @@ export default function Home() {
     <main className="flex items-center justify-center min-h-screen bg-black text-gold">
       <div className="text-center">
         {/* Work in Progress Heading */}
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
+        <h1 className="wip-heading">
           Work In Progress
         </h1>
 
