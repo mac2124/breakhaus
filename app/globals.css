@@ -21,25 +21,59 @@ body {
 }
 
 .wif-heading {
-    /* Tailwind classes via @apply */
-  @apply relative inline-block 
-    text-4xl sm:text-5xl md:text-6xl 
-    font-bold mb-6;
+  @apply relative inline-block text-4xl sm:text-5xl md:text-6xl font-bold mb-6;
 
   /* Custom gold color */
   color: #dbb900;
 }
 
-.wip-heading::after {
+.wip-heading:after {
   content: "";
-  @apply absolute top-0 left-0 w-full h-full pointer-events-none;
   
   /* Use your noise texture */
   background-image: url("/noise.png");
   background-size: cover;
   background-repeat: repeat;
 
-  /* Adjust blending and opacity to taste */
-  opacity: 0.2;
-  mix-blend-mode: multiply;
+  height: 300%;
+  width: 300%;
+  position: fixed;
+  opacity:0.1;
+   animation: animateGrain 8s steps(10) infinite;
+}
+
+@keyframes animateGrain{
+  0%, 100% { transform:translate(0, 0) }
+  10%{
+    transform:translate(-5%,-10%)
+  }
+  20%{
+    transform:translate(-15%,-20%)
+  }
+  30%{
+    transform:translate(-5%,-10%)
+  }
+  40%{
+    transform:translate(-15%,-20%)
+  }
+  
+  50%{
+    transform:translate(-5%,-10%)
+  }
+  60%{
+    transform:translate(-15%,-20%)
+  }
+  70%{
+    transform:translate(-5%,-10%)
+  }
+  80%{
+    transform:translate(-15%,-20%)
+  }
+  90%{
+    transform:translate(-5%,-10%)
+  }
+  100%{
+    transform:translate(-15%,-20%)
+  }
+ 
 }
