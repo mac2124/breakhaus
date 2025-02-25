@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex items-center justify-center min-h-screen bg-black text-gold">
+    <main className="flex items-center justify-center min-h-screen bg-black">
       <div className="text-center">
         {/* Work in Progress Heading */}
         <h1 className="wip-heading">
