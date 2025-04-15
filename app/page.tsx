@@ -5,42 +5,29 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex items-center justify-center min-h-screen bg-black">
-      <div className="text-center">
-        {/* Work in Progress Heading */}
-        <h1 className="wip-heading">
-          Work In Progress
-        </h1>
-
-        {/* Icon Row */}
-        <div className="flex items-center justify-center gap-8 text-3xl">
-          {/* Instagram Icon */}
-          <Link
-            href="https://instagram.com/yourprofile"
-            aria-label="Instagram"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaInstagram className="hover:scale-110 transition-transform" />
-          </Link>
-
-          {/* Email Icon */}
-          <Link
-            href="mailto:someone@example.com"
-            aria-label="Send Email"
-          >
-            <FaEnvelope className="hover:scale-110 transition-transform" />
-          </Link>
-
-          {/* Arrow Icon (could be a link back or forward) */}
-          <Link
-            href="/some-other-route"
-            aria-label="Another Page"
-          >
-            <FaArrowLeft className="hover:scale-110 transition-transform" />
-          </Link>
-        </div>
-      </div>
-    </main>
+  <div>
+    {/* Video element to play the MP4 file */}
+    <video
+      src="./public/BH_Looped.mp4"
+      autoPlay
+      loop
+      muted
+      playsInline
+      style={{
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%",
+        objectFit: "cover",
+        zIndex: -1,
+        pointerEvents: "none", // Prevent user interaction
+      }}
+    />
+    
+    {/* Rest of your page content */}
+    <h1 style={{ position: "relative", zIndex: 1 }}>Welcome to Breakhaus</h1>
+    {/* Add other components or content here */}
+  </div>
   );
 }
