@@ -4,10 +4,11 @@ import './globals.css';
 
 export default function Home() {
   return (
+    
   <div>
     {/* Video element to play the MP4 file */}
     <video
-      src="./public/BH_Looped.mp4"
+      src="public/BH_Looped.mp4"
       autoPlay
       loop
       muted
