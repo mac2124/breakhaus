@@ -2,6 +2,7 @@
 import React from "react";
 import { FaInstagram, FaEnvelope, FaArrowLeft } from "react-icons/fa";
 import Link from "next/link";
+import './globals.css';
 
 export default function Home() {
   return (
@@ -13,16 +14,7 @@ export default function Home() {
       loop
       muted
       playsInline
-      style={{
-        position: "absolute",
-        top: 0,
-        left: 0,
-        width: "100%",
-        height: "100%",
-        objectFit: "cover",
-        zIndex: -1,
-        pointerEvents: "none", // Prevent user interaction
-      }}
+      className="background-video"
     />
     
     {/* Rest of your page content */}
