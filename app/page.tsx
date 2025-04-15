@@ -1,7 +1,5 @@
 // pages/index.tsx
 import React from "react";
-import { FaInstagram, FaEnvelope, FaArrowLeft } from "react-icons/fa";
-import Link from "next/link";
 import './globals.css';
 
 export default function Home() {
