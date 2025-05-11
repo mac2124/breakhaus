@@ -23,5 +23,6 @@ const VideoHeader = () => {
     </div>
   );
 };
+// TODO: Move styles to a CSS file
 
 export default VideoHeader;
