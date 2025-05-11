@@ -2,14 +2,14 @@
 .wip-header-container {
     text-align: center;
     padding: 50px 20px;
-    background-color: #f8f8f8; /* Light background for contrast */
+    background-color: #000000; /* Light background for contrast */
   }
   
   .wip-header-title {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #333; /* Dark text color */
+    color: yellow; /* Dark text color */
   }
   
   .wip-header-links {
@@ -23,16 +23,16 @@
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 500;
-    color: #007bff; /* Link color */
+    color: #fff6f6; /* Link color */
     transition: color 0.3s ease;
   }
   
   .wip-link:hover {
-    color: #0056b3; /* Darker color on hover */
+    color: yellow; /* Darker color on hover */
   }
   
   .wip-divider {
     width: 1px;
     height: 20px;
-    background-color: #ccc; /* Divider color */
+    background-color: grey; /* Divider color */
   }
