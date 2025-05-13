@@ -7,10 +7,15 @@
   }
   
 .wip-header-title {
-font-size: 3rem;
-font-weight: bold;
-margin-bottom: 20px;
-color: yellow; /* Dark text color */
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: yellow; /* Base text color */
+  background: url('/breakhaus/assets/noise.png') repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 .wip-header-links {
