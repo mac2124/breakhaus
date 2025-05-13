@@ -13,9 +13,9 @@
     color: yellow; /* Base text color */
     background: repeating-radial-gradient(
       circle,
-      rgba(255, 255, 0, 0.2) 0%, /* Brighter yellow tint */
-      rgba(255, 255, 0, 0.2) 2px,
-      rgba(0, 0, 0, 0.05) 4px
+      rgba(255, 255, 0, 0.4) 0%, /* Brighter yellow tint */
+      rgba(255, 255, 0, 0.1) 2px,
+      rgba(0, 0, 0, 0.05) 2px
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
