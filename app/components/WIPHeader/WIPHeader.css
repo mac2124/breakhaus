@@ -14,8 +14,8 @@
     color: yellow; /* Base text color */
     background: repeating-linear-gradient(
       0deg,
-      rgba(255, 255, 0, 0.2),
-      rgba(255, 255, 0, 0.2) 1px,
+      rgba(255, 255, 0, 0.568),
+      rgba(255, 255, 0, 0.321) 1px,
       rgba(0, 0, 0, 0.05) 2px
     );
     -webkit-background-clip: text;
