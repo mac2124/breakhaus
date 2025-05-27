@@ -47,48 +47,6 @@ width: 1px;
 height: 20px;
 background-color: grey; /* Divider color */
 }
-  /* Double arrow styles */
-.double-arrow {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-.arrow {
-width: 30px;
-height: 30px;
-border-right: 5px solid yellow;
-border-bottom: 5px solid yellow; /* Change from border-bottom to border-top */
-animation: bounce 1.5s infinite;
-}
-
-/* Add spacing between the arrows */
-.arrow + .arrow {
-margin-top: 10px;
-}
-
-/* Bounce animation */
-@keyframes bounce {
-0%, 100% {
-    transform: translateY(0) rotate(45deg);
-}
-50% {
-    transform: translateY(10px) rotate(45deg);
-}
-}
-
-/* Fade-in animation for the arrows */
-.animate-fade-in {
-opacity: 0;
-animation: fadeIn 1s ease-in-out forwards;
-animation-delay: 2s; /* Delay the appearance by 2 seconds */
-}
-
-@keyframes fadeIn {
-to {
-    opacity: 1;
-}
-}
 
 /* Update for responsive design */
 @media (max-width: 768px) {
