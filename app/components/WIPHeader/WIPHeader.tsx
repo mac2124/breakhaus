@@ -16,12 +16,10 @@ const WIPHeader = () => {
             <span className="wip-divider"></span>
             <a href="#contact" className="wip-link">Contact</a>
           </div>
-          <div className="absolute bottom-10 left-0 w-full flex items-center justify-center z-10">
             <div className="double-arrow animate-fade-in">
                 <div className="arrow"></div>
                 <div className="arrow mt-2"></div>
             </div>     
-          </div>
         </div>
       );
 };
