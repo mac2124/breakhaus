@@ -93,6 +93,36 @@ background-color: grey; /* Divider color */
   margin-top: 10px;
 }
 
+/* Merch Section Styles */
+.merch-section {
+  margin-top: 30px; /* Add spacing above the merch section */
+  text-align: center;
+}
+
+.merch-header {
+  font-size: 2rem; /* Smaller than the main header */
+  font-weight: bold;
+  color: yellow; /* Match the main header color */
+  margin-bottom: 15px;
+}
+
+.shop-link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5rem; /* Large clickable link */
+  font-weight: bold;
+  color: #fff6f6; /* Light text color */
+  background-color: yellow; /* Button-like background */
+  padding: 10px 20px;
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.shop-link:hover {
+  background-color: #ffd700; /* Slightly darker yellow on hover */
+  color: #000; /* Dark text color on hover */
+}
+
 /* Bounce animation */
 @keyframes bounce {
   0%, 100% {

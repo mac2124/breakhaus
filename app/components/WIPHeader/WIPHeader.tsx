@@ -16,6 +16,13 @@ const WIPHeader = () => {
             <span className="wip-divider"></span>
             <a href="#contact" className="wip-link">Contact</a>
           </div>
+
+          {/* Merch Section */}
+          <div className="merch-section">
+            <h2 className="merch-header">Merch now available</h2>
+            <a href="#shop" className="shop-link">Shop</a>
+          </div>
+          
             <div className="double-arrow animate-fade-in">
                 <div className="arrow"></div>
                 <div className="arrow mt-2"></div>
