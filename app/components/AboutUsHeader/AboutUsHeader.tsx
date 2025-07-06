@@ -15,7 +15,7 @@ const AboutUsHeader = () => {
         It feels like you are witnessing the music being made, a part of the intimate process between both djs who are hitting crazy tunes 
         It also feels like like witnessing a friendly battle; which makes BH more climactic to regular club nights 
 
-        Additionally the fact that there isn’t a divide between the dj's and crowd (like they are not on a podium or elevated or so) makes the experience a lot more personal
+        Additionally the fact that there isnt a divide between the djs and crowd (like they are not on a podium or elevated or so) makes the experience a lot more personal
         But mainly for me what makes BH so special is the community built around it, anticipating the day and the excitement of knowing everyone is coming out that night. Music becomes a social process of brining people together, dancing, meeting new and familiar faces.
       </p>
 
