@@ -9,7 +9,7 @@ const WIPHeader = () => {
     
           {/* Links Section */}
           <div className="wip-header-links">
-            <a href="#about-us" className="wip-link">About Us</a>
+            <a href="#about-us" className="wip-link">About Us</a> {/* Enabled link */}
             <span className="wip-divider"></span>
             <a href="#useful-links" className="wip-link">Useful Links</a>
             <span className="wip-divider"></span>
