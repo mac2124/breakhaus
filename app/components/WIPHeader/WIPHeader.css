@@ -103,7 +103,17 @@ background-color: grey; /* Divider color */
   font-size: 2rem; /* Smaller than the main header */
   font-weight: bold;
   color: yellow; /* Match the main header color */
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(255, 255, 0, 0.568),
+    rgba(255, 255, 0, 0.321) 1px,
+    rgba(0, 0, 0, 0.05) 2px
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   margin-bottom: 15px;
+  margin-top: 30px;
 }
 
 .shop-link {
@@ -112,14 +122,14 @@ background-color: grey; /* Divider color */
   font-size: 1.5rem; /* Large clickable link */
   font-weight: bold;
   color: #fff6f6; /* Light text color */
-  background-color: yellow; /* Button-like background */
+  background-color: #ffd700; /* Slightly darker yellow on hover */
   padding: 10px 20px;
   border-radius: 5px; /* Rounded corners */
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .shop-link:hover {
-  background-color: #ffd700; /* Slightly darker yellow on hover */
+  background-color: #ffd9007d; /* Slightly darker yellow on hover */
   color: #000; /* Dark text color on hover */
 }
 
