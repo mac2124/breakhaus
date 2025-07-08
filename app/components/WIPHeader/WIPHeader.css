@@ -99,7 +99,7 @@ background-color: grey; /* Divider color */
   flex-direction: column;
   justify-content: center; /* Center content vertically */
   align-items: center; /* Center content horizontally */
-  height: 70vh; /* Full viewport height */
+  height: 60vh; /* Full viewport height */
   text-align: center;
 }
 
