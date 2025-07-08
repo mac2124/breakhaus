@@ -5,6 +5,7 @@
     height: 100vh; /* Full viewport height */
     background-color: #000000; /* Dark background for contrast */
     position: relative; /* Ensure the container is positioned for absolute children */
+    margin-top: 50px; /* Add spacing above the About Us section */
   }
   
   .about-us-header-title {
@@ -55,6 +56,23 @@
   
   .arrow + .arrow {
     margin-top: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-us-header-container {
+      height: auto; /* Adjust height for smaller screens */
+      padding: 30px 15px; /* Reduce padding for smaller screens */
+    }
+  
+    .double-arrow {
+      bottom: 10px; /* Adjust arrow position for smaller screens */
+    }
+  
+    .arrow {
+      width: 20px; /* Reduce arrow size for smaller screens */
+      height: 20px;
+    }
   }
   
   @keyframes bounce {
