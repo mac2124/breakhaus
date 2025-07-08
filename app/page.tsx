@@ -1,3 +1,5 @@
+'use client'
+
 import React from "react";
 import './globals.css';
 import VideoHeader from "@/app/components/VideoHeader/VideoHeader";
