@@ -1,11 +1,10 @@
 import React from 'react';
 import './WIPHeader.css';
 
-
 const WIPHeader = () => {
     return (
         <div className="wip-header-container">
-          {/* Header Text */}
+          {/* Main Header Text */}
           <h1 className="wip-header-title">Work in Progress</h1>
     
           {/* Links Section */}
@@ -22,13 +21,14 @@ const WIPHeader = () => {
             <h2 className="merch-header">Merch now available</h2>
             <a href="#shop" className="shop-link">Shop</a>
           </div>
-          
-            <div className="double-arrow animate-fade-in">
-                <div className="arrow"></div>
-                <div className="arrow mt-2"></div>
-            </div>     
+
+          {/* Double Arrow */}
+          <div className="double-arrow animate-fade-in">
+              <div className="arrow"></div>
+              <div className="arrow mt-2"></div>
+          </div>     
         </div>
-      );
+    );
 };
 
 export default WIPHeader;
