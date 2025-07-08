@@ -116,7 +116,6 @@ background-color: grey; /* Divider color */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin-bottom: 15px;
 }
 
 .shop-link {
@@ -131,7 +130,6 @@ background-color: grey; /* Divider color */
     rgba(0, 0, 0, 0.05) 2px,
     rgba(255, 255, 0, 0.2) 4px
   ); /* Noise effect */
-  padding: 10px 20px;
   border-radius: 5px; /* Rounded corners */
   transition: background-color 0.3s ease, color 0.3s ease;
 }
