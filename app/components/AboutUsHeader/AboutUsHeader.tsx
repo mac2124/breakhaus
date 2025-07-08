@@ -3,7 +3,7 @@ import './AboutUsHeader.css';
 
 const AboutUsHeader = () => {
   return (
-    <div className="about-us-header-container">
+    <div id="about-us" className="about-us-header-container">
       {/* Header Text */}
       <h1 className="about-us-header-title">About Us</h1>
 
