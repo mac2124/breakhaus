@@ -97,9 +97,9 @@ background-color: grey; /* Divider color */
 .merch-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%; /* Center vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  height: 100vh; /* Full viewport height */
   text-align: center;
 }
 
@@ -116,6 +116,7 @@ background-color: grey; /* Divider color */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  margin-bottom: 15px;
 }
 
 .shop-link {
@@ -130,6 +131,7 @@ background-color: grey; /* Divider color */
     rgba(0, 0, 0, 0.05) 2px,
     rgba(255, 255, 0, 0.2) 4px
   ); /* Noise effect */
+  padding: 10px 20px;
   border-radius: 5px; /* Rounded corners */
   transition: background-color 0.3s ease, color 0.3s ease;
 }
