@@ -6,6 +6,7 @@ import VideoHeader from "@/app/components/VideoHeader/VideoHeader";
 import WIPHeader from "@/app/components/WIPHeader/WIPHeader";
 import AboutUsHeader from "./components/AboutUsHeader/AboutUsHeader";
 import ProgressBar from "@/app/components/ProgressBar/ProgressBar";
+import UsefulLinksHeader from "./components/UsefulLinksHeader/UsefulLinksHeader";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <VideoHeader />
         <WIPHeader />
         <AboutUsHeader />
+        <UsefulLinksHeader />
         {/* Add more components or content as needed */}
       </main>
     </>
