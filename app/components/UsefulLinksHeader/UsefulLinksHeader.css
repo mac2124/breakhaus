@@ -26,6 +26,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+    align-self: top; /* Align title to the top */
 }
 
 .useful-links-icons {
