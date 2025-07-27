@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: center; /* Center content vertically */
     align-items: center; /* Center content horizontally */
+    margin-top: 50px; /* Add spacing above the Useful Links section */
 }
 
 .useful-links-header-title {

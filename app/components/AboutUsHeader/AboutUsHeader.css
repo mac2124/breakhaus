@@ -5,6 +5,8 @@
     height: 100vh; /* Full viewport height */
     background-color: #000000; /* Dark background for contrast */
     position: relative; /* Ensure the container is positioned for absolute children */
+    margin-top: 50px; /* Add spacing above the Useful Links section */
+
   }
   
   .about-us-header-title {

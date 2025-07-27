@@ -5,6 +5,7 @@
     height: 100vh; /* Full viewport height */
     background-color: #000000; /* Light background for contrast */
     position: relative; /* Ensure the container is positioned for absolute children */
+    margin-top: 50px; /* Add spacing above the Useful Links section */
   }
   
   .wip-header-title {
