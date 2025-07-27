@@ -53,3 +53,65 @@
     filter: invert(100%) sepia(0%) saturate(7427%) hue-rotate(23deg) brightness(118%) contrast(118%);
 }
 
+/* Double Arrow Styles */
+.double-arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; /* Position at the bottom of the page */
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+  }
+  
+  .arrow {
+    width: 30px;
+    height: 30px;
+    border-right: 5px solid yellow;
+    border-bottom: 5px solid yellow;
+    transform: rotate(45deg);
+    animation: bounce 1.5s infinite;
+  }
+  
+  .arrow + .arrow {
+    margin-top: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-us-header-container {
+      height: auto; /* Adjust height for smaller screens */
+      padding: 30px 15px; /* Reduce padding for smaller screens */
+    }
+  
+    .double-arrow {
+      bottom: 10px; /* Adjust arrow position for smaller screens */
+    }
+  
+    .arrow {
+      width: 20px; /* Reduce arrow size for smaller screens */
+      height: 20px;
+    }
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0) rotate(45deg);
+    }
+    50% {
+      transform: translateY(10px) rotate(45deg);
+    }
+  }
+  
+  .animate-fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 2s;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
