@@ -7,6 +7,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    margin-top: 50px; /* Add spacing above the Contact Form section */
 }
 
 .contact-form-title {
