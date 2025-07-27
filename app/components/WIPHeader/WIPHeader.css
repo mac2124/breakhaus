@@ -66,6 +66,17 @@ background-color: grey; /* Divider color */
     height: 1px; /* Horizontal line */
     background-color: grey; /* Divider color */
   }
+
+  .merch-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    height: 60vh; /* Adjust height for responsiveness */
+    text-align: center;
+    margin-bottom: 50px; /* Add spacing below the merch section */
+    margin-top: 30px; /* Add spacing above the merch section */
+  }
 }
 
 /* Merch Section Styles */
